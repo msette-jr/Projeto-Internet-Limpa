@@ -141,17 +141,18 @@ button:hover {
     right: 20px;
     width: 60px;
     height: 60px;
-    background-color: #25d366;
-    border-radius: 50%;
+    background-color: transparent; /* Removendo o fundo verde */
+    border-radius: 50%; /* Mantendo o formato circular */
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: none; /* Removendo a sombra */
 }
 
 #chatbot img {
-    width: 115px;
-    height: 115px;
+    width: 65px; /* Ajuste para o tamanho do ícone */
+    height: 65px; /* Ajuste para o tamanho do ícone */
+    object-fit: cover;
 }
 
 /* Rodapé */
